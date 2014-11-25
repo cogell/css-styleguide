@@ -24,6 +24,12 @@ Notes:
 ### Classes vs Tag Names
 tl;dr add classes, don't tie presentation to tag names (break this rule sometimes)
 
+### Class Naming Conventions
+tl;dr BEM style `base__element--modifier`
+
+### Tying Javascript to DOM Elements
+tl;dr prefix all classes that javascript uses with `js-`
+
 ### Levels of Nesting
 tl;dr only 3 levels at most, any more is hard to read
 

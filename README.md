@@ -33,6 +33,10 @@ tl;dr prefix all classes that javascript uses with `js-`
 ### Levels of Nesting
 tl;dr only 3 levels at most, any more is hard to read
 
+### Inheritence Vs. Composition
+tl;dr there is nothing short and sweet about this discussion except the following quote from [Learn Ruby the Hard Way](http://learnrubythehardway.org/book/ex44.html#when-to-use-inheritance-or-composition)
+> The thing to remember about object-oriented programming is that it is entirely a social convention programmers have created to package and share code.
+
 ## Other Styleguides
 BEM, SMACCS, OOCSS, etc - Doesn't really matter what you use **just use something**.
 

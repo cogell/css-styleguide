@@ -33,6 +33,9 @@ tl;dr prefix all classes that javascript uses with `js-`
 ### Levels of Nesting
 tl;dr only 3 levels at most, any more is hard to read
 
+Nesting is inheritence so tread lightly. Here is a great quote from [@micahgodbolt](https://twitter.com/micahgodbolt)
+> Avoid multiple inheritance at all costs, as it’s too complex to be useful reliably. If you’re stuck with it, then be prepared to know the class hierarchy and spend time finding where everything is coming from.
+
 ### Inheritence Vs. Composition
 tl;dr there is nothing short and sweet about this discussion except the following quote from [Learn Ruby the Hard Way](http://learnrubythehardway.org/book/ex44.html#when-to-use-inheritance-or-composition)
 > The thing to remember about object-oriented programming is that it is entirely a social convention programmers have created to package and share code.

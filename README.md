@@ -40,6 +40,15 @@ Nesting is inheritence so tread lightly. Here is a great quote from [@micahgodbo
 tl;dr there is nothing short and sweet about this discussion except the following quote from [Learn Ruby the Hard Way](http://learnrubythehardway.org/book/ex44.html#when-to-use-inheritance-or-composition)
 > The thing to remember about object-oriented programming is that it is entirely a social convention programmers have created to package and share code.
 
+### Single Colon vs Double Colon
+
+#### Supporting IE*
+Always use single colon.
+
+#### Evergreen/modern browsers
+Use single colon for puesdo **selectors** and use double colons for puesdo **elements** i.e. `::before` and `::after`
+
+
 ## Other Styleguides
 BEM, SMACCS, OOCSS, etc - Doesn't really matter what you use **just use something**.
 
@@ -61,10 +70,9 @@ The `.admin` class/module is inheriting styling from `.button--primary`.  That i
 
 The way to make this code more modular would be to write more code which is less DRY but more standalone.  We might write out a `.admin__button` class that **may** be similar to `.button--primary` but at that cost we gain a decoupled module.  Perhaps both modules `.button--primary` and `.admin__button` would inherit from global theme variables with local fallbacks.
 
-
-
 ## References and Inspirations
 
 - [Opt-in Typography](http://css-tricks.com/opt-in-typography/)
 - [Used and Abused – CSS Inheritance and Our Misuse of the Cascade](http://www.phase2technology.com/blog/used-and-abused-css-inheritance-and-our-misuse-of-the-cascade/)
 - [Learn Ruby the Hard Way](http://learnrubythehardway.org/book/ex44.html#when-to-use-inheritance-or-composition)
+- [The single responsibility principle applied to CSS](http://csswizardry.com/2012/04/the-single-responsibility-principle-applied-to-css/)
